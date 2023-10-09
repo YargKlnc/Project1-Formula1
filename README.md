@@ -16,10 +16,10 @@ This section will review the most successful F1 teams based on the type of car a
 
 ##Dataset Preprocessing
 
--Combined the constructor results, constructors and races csv files
--dropped unneccessary columns
--filtered data for only years on or after 204
--grouped by year and calculated the winning team based on total points
+- Combined the constructor results, constructors and races csv files
+- Dropped unneccessary columns
+- Filtered data for only years on or after 204
+- Grouped by year and calculated the winning team based on total points
 
 ##Conclusion
 
