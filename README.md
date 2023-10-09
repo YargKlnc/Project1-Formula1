@@ -10,11 +10,12 @@ The question would be answered after looking at the following factors closely:
 # Formula 1 Championship Analysis: The Age of the Driver
 This sections takes a deeper drive into looking at races after the year 2004, the amount of wins vs the age of the driver.
 
-#Introduction
+##Introduction
+
 Age has an impact of the level of experiance and skill the driver has, their physical fitness, their ablility to adapt quickly to changing techonlogies and last but not least the risk taking competitive racing has. With those reason, we are looking at if driver in their 20s and 30s have more wins than drivers in other age groups.
 
 
-#Dataset Preprocessing
+##Dataset Preprocessing
 
 - Merged the `driver standings`, `drivers` , and `results` from their corresponding csv file
 - The mean of ages and wins were calculated and graphed 
@@ -22,7 +23,8 @@ Age has an impact of the level of experiance and skill the driver has, their phy
 - Correlation test was performed to see if age had any type of impact in winning
   
 
-# Conclusion
+##Conclusion
+
 Many factors have an impact on the winning of F1 championships, age does have an impact but not one that causes the winning of a championship alone. The age of a driver definitely helps given the reasons stated above but not one that the team coach would need to spend a lot of time to consider when looking for a driver. 
 
 # Formula 1 Championship Analysis: Role of Pit Stops
