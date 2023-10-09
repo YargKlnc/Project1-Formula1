@@ -8,6 +8,21 @@ The question would be answered after looking at the following factors closely:
 3. Role of pit stops
 4. The fastest lap speed.
 
+# Formula 1 Championship Analysis: Type of Contractor (car)
+
+##Introduction
+
+This section will review the most successful F1 teams based on the type of car and nationality. The type of car plays a pivotal role in determining the success of a Formula 1 team. It is a critical factor that directly impacts a team's performance on the race track.
+
+##Dataset Preprocessing
+-Combined the constructor results, constructors and races csv files
+-dropped unneccessary columns
+-filtered data for only years on or after 204
+-grouped by year and calculated the winning team based on total points
+
+#Conclusion
+Mercedes is the most succesful contractor over the last 20 years. I was limited by the dataset available, which didn't include car specifications. The design, engineering, aerodynamics, power unit, and overall performance of the car are all essential components that can make the difference between winning and losing in the highly competitive world of Formula 1. Teams that excel in creating and fine-tuning their cars gain a significant advantage in achieving success in this premier motorsport.
+
 # Formula 1 Championship Analysis: The Age of the Driver
 This sections takes a deeper drive into looking at races after the year 2004, the amount of wins vs the age of the driver.
 
