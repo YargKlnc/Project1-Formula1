@@ -11,47 +11,49 @@ Structure: find the mean for all teams, and the mean between the top winning tea
 
 (archit - pit stop time, chisom- age of driver, yargi- lap time, ismail- type of contractor)
 
-## Formula 1 Pit Stop Analysis
+# Formula 1 Championship Analysis: Role of Pit Stops
 
-This repository contains a comprehensive analysis of the impact of pit stop durations on Formula 1 racing outcomes.
+This section of the larger project dives deep into understanding how pit stop durations influence outcomes in Formula 1 races, contributing to winning a championship.
 
-### Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Dataset Preprocessing](#dataset-preprocessing)
 - [Analysis](#analysis)
   - [Correlation Analysis](#correlation-analysis)
   - [ANOVA Analysis](#anova-analysis)
-  - [Visual Representation](#visual-representation)
+- [Visual Representation](#visual-representation)
 - [Conclusion](#conclusion)
-- [Visualizations](#visualizations)
-- [Usage](#usage)
-- [Contributions](#contributions)
 
-### Introduction
-The core objective of this project is to explore the extent to which pit stop durations impact race outcomes in Formula 1. Using detailed datasets, we delve deep into various analytical techniques to unravel this relationship.
+## Introduction
 
-### Dataset Preprocessing
-- Merged `pit_stops` and `results` datasets based on `raceId` and `driverId`.
-- Time values were converted from milliseconds to seconds.
-- Irrelevant columns were systematically removed to streamline the data for analysis.
+Within the multifaceted world of Formula 1, various factors contribute to winning a championship. This segment focuses on one such crucial aspect: pit stops. By analyzing detailed datasets, we seek to understand the strategic implications of pit stop durations.
 
-### Analysis
+## Dataset Preprocessing
 
-#### Correlation Analysis
-- Determined a weak positive correlation of approximately 0.08 between pit stop durations and race results.
-- This weak correlation suggests that while pit stop times might influence the race outcome, other factors also play a crucial role.
+- Merged the `pit_stops` and `results` datasets based on `raceId` and `driverId`.
+- Time values converted from milliseconds to seconds for better clarity.
+- Columns not pertinent to pit stops were removed to ensure focused analysis.
 
-#### ANOVA Analysis
-- Analyzed if different constructors had significantly varying pit stop durations.
-- The findings, with a p-value of around 3.74e-23, confirmed that pit stop durations significantly differ among constructors.
+## Analysis
 
-#### Visual Representation
-- Utilized a scatter plot to illustrate the relationship between pit stop duration and race result duration.
-- Employed a box plot to visually represent pit stop duration variations across different constructors.
+### Correlation Analysis
 
-### Conclusion
-The in-depth analysis underscores the significance of pit stop durations in Formula 1 racing. While pit stop times play a role, they are just one of many factors influencing race outcomes. Nevertheless, the substantial variation in pit stop durations among constructors implies a strategic element that teams can potentially optimize for better results.
+- Established a weak positive correlation (~0.08) between pit stop durations and race outcomes. 
+- This correlation suggests pit stop times might influence the race outcome, but are not the sole determinants.
 
+### ANOVA Analysis
+
+- The goal was to understand if different constructors have varying pit stop durations.
+- Significant differences were found among constructors with a p-value approximating 3.74e-23.
+
+## Visual Representation
+
+- A scatter plot depicted the relationship between pit stop duration and race result duration.
+- A box plot showcased variations in pit stop durations across different constructors, emphasizing strategic differences.
+
+## Conclusion
+
+While numerous factors play a role in determining a Formula 1 championship winner, pit stops undoubtedly have their strategic importance. Though they are not the singular pivotal factor, optimizing pit stop durations can provide teams with a competitive edge in the overarching journey to clinch the championship title.
 
 
 https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv
