@@ -42,8 +42,7 @@ This section of the larger project dives deep into understanding how pit stop du
 - [Conclusion](#conclusion)
 
 ## Introduction
-
-Within the multifaceted world of Formula 1, various factors contribute to winning a championship. This segment focuses on one such crucial aspect: pit stops. By analyzing detailed datasets, we seek to understand the strategic implications of pit stop durations.
+ As a part of a team project examining various factors in Formula 1 success, this analysis concentrates on the importance of pit stops.
 
 ## Dataset Preprocessing
 
