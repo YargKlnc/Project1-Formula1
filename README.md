@@ -12,37 +12,44 @@ Structure: find the mean for all teams, and the mean between the top winning tea
 (archit - pit stop time, chisom- age of driver, yargi- lap time, ismail- type of contractor)
 
 ## Formula 1 Pit Stop Analysis
+
 This repository contains a comprehensive analysis of the impact of pit stop durations on Formula 1 racing outcomes.
 
-Table of Contents
-Introduction
-Dataset Preprocessing
-Analysis
-Correlation Analysis
-ANOVA Analysis
-Visual Representation
-Conclusion
-Visualizations
-Usage
-Contributions
-Introduction
+### Table of Contents
+- [Introduction](#introduction)
+- [Dataset Preprocessing](#dataset-preprocessing)
+- [Analysis](#analysis)
+  - [Correlation Analysis](#correlation-analysis)
+  - [ANOVA Analysis](#anova-analysis)
+  - [Visual Representation](#visual-representation)
+- [Conclusion](#conclusion)
+- [Visualizations](#visualizations)
+- [Usage](#usage)
+- [Contributions](#contributions)
+
+### Introduction
 The core objective of this project is to explore the extent to which pit stop durations impact race outcomes in Formula 1. Using detailed datasets, we delve deep into various analytical techniques to unravel this relationship.
 
-Dataset Preprocessing
-Merged pit_stops and results datasets based on raceId and driverId.
-Time values were converted from milliseconds to seconds.
-Irrelevant columns were systematically removed to streamline the data for analysis.
-Analysis
-Correlation Analysis
-Determined a weak positive correlation of approximately 0.08 between pit stop durations and race results.
-This weak correlation suggests that while pit stop times might influence the race outcome, other factors also play a crucial role.
-ANOVA Analysis
-Analyzed if different constructors had significantly varying pit stop durations.
-The findings, with a p-value of around 3.74e-23, confirmed that pit stop durations significantly differ among constructors.
-Visual Representation
-Utilized a scatter plot to illustrate the relationship between pit stop duration and race result duration.
-Employed a box plot to visually represent pit stop duration variations across different constructors.
-Conclusion
+### Dataset Preprocessing
+- Merged `pit_stops` and `results` datasets based on `raceId` and `driverId`.
+- Time values were converted from milliseconds to seconds.
+- Irrelevant columns were systematically removed to streamline the data for analysis.
+
+### Analysis
+
+#### Correlation Analysis
+- Determined a weak positive correlation of approximately 0.08 between pit stop durations and race results.
+- This weak correlation suggests that while pit stop times might influence the race outcome, other factors also play a crucial role.
+
+#### ANOVA Analysis
+- Analyzed if different constructors had significantly varying pit stop durations.
+- The findings, with a p-value of around 3.74e-23, confirmed that pit stop durations significantly differ among constructors.
+
+#### Visual Representation
+- Utilized a scatter plot to illustrate the relationship between pit stop duration and race result duration.
+- Employed a box plot to visually represent pit stop duration variations across different constructors.
+
+### Conclusion
 The in-depth analysis underscores the significance of pit stop durations in Formula 1 racing. While pit stop times play a role, they are just one of many factors influencing race outcomes. Nevertheless, the substantial variation in pit stop durations among constructors implies a strategic element that teams can potentially optimize for better results.
 
 
