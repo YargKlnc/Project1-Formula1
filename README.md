@@ -23,7 +23,7 @@ This section will review the most successful F1 teams based on the type of car a
 
 ##Conclusion
 
-Mercedes is the most succesful contractor over the last 20 years. I was limited by the dataset available, which didn't include car specifications. The design, engineering, aerodynamics, power unit, and overall performance of the car are all essential components that can make the difference between winning and losing in the highly competitive world of Formula 1. Teams that excel in creating and fine-tuning their cars gain a significant advantage in achieving success in this premier motorsport.
+Mercedes is the most successful contractor over the last 20 years. I was limited by the dataset available, which didn't include car specifications. The design, engineering, aerodynamics, power unit, and overall performance of the car are all essential components that can make the difference between winning and losing in the highly competitive world of Formula 1. Teams that excel in creating and fine-tuning their cars gain a significant advantage in achieving success in this premier motorsport.
 
 # Formula 1 Championship Analysis: The Age of the Driver
 This sections takes a deeper drive into looking at races after the year 2004, the amount of wins vs the age of the driver.
