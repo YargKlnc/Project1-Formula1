@@ -1,15 +1,29 @@
 # Project1-Group8
-
-Main question:
-What factor plays in winning a F1 championship? Why do the top 3 winning team win within the last 10 years( what factors help the winning team)
-
-Sub questions: pit stop time, type/age of driver, the type of contractors (type of brand of car), lap-time (does not mean you will win the season/game), see the percentage of nationality and see how their nationalities plays a role
-
 Main audience: Team Coach
+What factors contribute into winnimg a F1 championship?
+The question would be answered after looking at the following factors closely:
+1. The type of Contractors (car)
+2. The age of the driver
+3. Role of pit stops
+4. The fastest lap speed.
 
-Structure: find the mean for all teams, and the mean between the top winning team and the correlation between the data and the winning team. Use bar chart, pie chart or line/scatter plot to show the mean, mean between the top 3 and the correlation
+# Formula 1 Championship Analysis: The Age of the Driver
+This sections takes a deeper drive into looking at races after the year 2004, the amount of wins vs the age of the driver.
 
-(archit - pit stop time, chisom- age of driver, yargi- lap time, ismail- type of contractor)
+#Introduction
+Age has an impact of the level of experiance and skill the driver has, their physical fitness, their ablility to adapt quickly to changing techonlogies and last but not least the risk taking competitive racing has. With those reason, we are looking at if driver in their 20s and 30s have more wins than drivers in other age groups.
+
+
+#Dataset Preprocessing
+
+- Merged the `driver standings`, `drivers` , and `results` from their corresponding csv file
+- The mean of ages and wins were calculated and graphed 
+- The top 4 winners and their age was also presented and looked into.
+- Correlation test was performed to see if age had any type of impact in winning
+  
+
+# Conclusion
+Many factors have an impact on the winning of F1 championships, age does have an impact but not one that causes the winning of a championship alone. The age of a driver definitely helps given the reasons stated above but not one that the team coach would need to spend a lot of time to consider when looking for a driver. 
 
 # Formula 1 Championship Analysis: Role of Pit Stops
 
