@@ -7,7 +7,7 @@ Mission Statement: Why do the top 3 winning team win within the last 20 years an
 Main Audience: Team Coach
 
 What factors contribute into winning a F1 championship? The question would be answered after looking at the following 4 factors closely:
-1. The type of Contractors (car)
+1. The type of Constructor (car)
 2. The age of the driver
 3. Role of pit stops
 4. The fastest lap speed.
@@ -17,7 +17,7 @@ Datasets From:
 https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv
 https://www.kaggle.com/code/ameyabhagat24/da-on-f1#Data-Analysis-on-Formula-1
 
-# Formula 1 Championship Analysis: Type of Contractor (car)
+# Formula 1 Championship Analysis: Type of Constructor (car)
 
 ## Introduction
 
@@ -32,7 +32,7 @@ This section will review the most successful F1 teams based on the type of car a
 
 ## Conclusion
 
-Mercedes is the most successful contractor over the last 20 years. I was limited by the dataset available, which didn't include car specifications. The design, engineering, aerodynamics, power unit, and overall performance of the car are all essential components that can make the difference between winning and losing in the highly competitive world of Formula 1. Teams that excel in creating and fine-tuning their cars gain a significant advantage in achieving success in this premier motorsport.
+Mercedes is the most successful constructor over the last 20 years. I was limited by the dataset available, which didn't include car specifications. The design, engineering, aerodynamics, power unit, and overall performance of the car are all essential components that can make the difference between winning and losing in the highly competitive world of Formula 1. Teams that excel in creating and fine-tuning their cars gain a significant advantage in achieving success in this premier motorsport.
 
 # Formula 1 Championship Analysis: The Age of the Driver
 This sections takes a deeper drive into looking at races after the year 2004, the amount of wins vs the age of the driver.
