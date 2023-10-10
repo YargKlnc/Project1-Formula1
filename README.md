@@ -2,19 +2,11 @@
 # by Archit Hallan, Chisom Ozoemena, Ismail Omer, Yargi Kilinc
 # Project1-Group8
 
-Mission Statement: 
-
-Why do the top 3 winning team win within the last 20 years( what factors help the winning team). How do the below factors effect the success and the podium? This work has been divided into 4 parts as below;
-
-- Type of contractor
-- Age of driver
-- Pitstop time
-- Lap speed 
+Mission Statement: Why do the top 3 winning team win within the last 20 years and what factors help the winning team reach the podium. 
 
 Main audience: Team Coach
 
-What factors contribute into winnimg a F1 championship?
-The question would be answered after looking at the following factors closely:
+What factors contribute into winning a F1 championship? The question would be answered after looking at the following 4 factors closely:
 1. The type of Contractors (car)
 2. The age of the driver
 3. Role of pit stops
