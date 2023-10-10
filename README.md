@@ -88,7 +88,25 @@ Given our findings, teams might consider:
 ## Conclusion
 In the intricate ballet of Formula 1 races, pit stops, though brief, play a pivotal role. While not the sole determinant, optimizing pit stop times can offer teams an edge in their overarching quest for championship glory.
 
+# Formula 1 Championship Analysis: The Fastest Lap Speed
 
+##Introduction
+
+This section will review the fastest lap speeds that F1 teams reached since past 20 years. Reaching higher lap speeds might be a critical factor that will effect the final podium positions. 
+
+##Dataset Preprocessing
+
+- Read and merged the result, races, lap times, drivers, circuits, constructors and driver standings csv files
+- Dropped irrelevant columns and filtered data for only years on and after 2004
+- Created a data frame with top 10 fastest lap speeds after 2004 using nlargest&max and sorted from maximum to minimum
+- Calculated the correlations between podium positions and the highest lap speeds for the 2 races that holds fastest lap speeds since 2004  
+
+##Visual Representation
+- A scatter plot illuminated the correlation between fastest lap speeds and final positions for the 2 races that holds the highest lap speeds that will help visualize individual data points and potential outliers.
+- Correlation value represented on scatter plots
+
+##Conclusion
+Ferrari team keeps the 2 highest lap speeds reached since past 20 years followed by McLaren team. This analysis is limited to the dataset available and there are other factors that will effect the final podium positions. Looking into races with record highest lap speeds in the past 20 years and the negative correlation with the final positions, it is possible to say that reaching the highest speeds in a lap likely results with a place in the podium as a finalist in first 3.
 
 https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv
 
