@@ -4,13 +4,17 @@
 
 Mission Statement: Why do the top 3 winning team win within the last 20 years and what factors help the winning team reach the podium. 
 
-Main audience: Team Coach
+Main Audience: Team Coach
 
 What factors contribute into winning a F1 championship? The question would be answered after looking at the following 4 factors closely:
 1. The type of Contractors (car)
 2. The age of the driver
 3. Role of pit stops
 4. The fastest lap speed.
+
+Datasets From:
+https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv
+https://www.kaggle.com/code/ameyabhagat24/da-on-f1#Data-Analysis-on-Formula-1
 
 # Formula 1 Championship Analysis: Type of Contractor (car)
 
@@ -109,7 +113,5 @@ This section will review the fastest lap speeds that F1 teams reached since past
 ## Conclusion
 Ferrari team keeps the 2 highest lap speeds reached since past 20 years followed by McLaren team. This analysis is limited to the dataset available and there are other factors that will effect the final podium positions. Looking into races with record highest lap speeds in the past 20 years and the negative correlation with the final positions, it is possible to say that reaching the highest speeds in a lap likely results with a place in the podium as a finalist in first 3.
 
-https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv
 
-https://www.kaggle.com/code/ameyabhagat24/da-on-f1#Data-Analysis-on-Formula-1
 
