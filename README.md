@@ -129,5 +129,5 @@ Lap Speed Superiority: Delving into the records, Ferrari’s and McLaren’s pro
 In summation, the road to F1 championship supremacy is an intricate dance of multiple variables. It’s the holistic orchestration of top-tier engineering, strategic acumen, impeccable skill, and a sprinkle of racing fortune that culminates in the coveted championship title.
 
 ## References
-Formula1 photo taken from and rights belongs to Wikipedia https://en.wikipedia.org/wiki/History_of_Formula_One#/media/File:Ferrari_Formula_1_lineup_at_the_N%C3%BCrburgring.jpg
+Formula1 photo taken from and all rights belongs to Wikipedia [https://en.wikipedia.org/wiki/History_of_Formula_One#/media/File:Ferrari_Formula_1_lineup_at_the_N%C3%BCrburgring.jpg]
 
